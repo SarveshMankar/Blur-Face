@@ -37,7 +37,7 @@ while True:
     #Showing the Live Cam
     cv2.imshow("Video",img)
     
-    #For Qutitting
+    #For Quitting
     if cv2.waitKey(1) & 0xFF == ord('q'):
         print("Exited")
         break
